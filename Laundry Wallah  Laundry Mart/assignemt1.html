@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah</title>
+</head>
+<body>
+    <h1> Welcome to Laundry Wallah / Laundry Mart</h1>
+    <p>Welcome to Laundry Wallah / Laundry Mart, your one step solution for all your laundry needs. Our dedicated team ensures top-notch service, providing care of your garments as if they were our own.</p>
+        <img src="image/washing.jpg" height="300" width="300" alt="Earth">>
+    <p> <strong>Our service</strong></p>
+    <ul>
+        <li>Washing</li>
+        <li>Ironing and Folding</li>
+        <li>Dry Cleaning</li>
+        <li>Stain Removal</li>
+        <li>Express Service</li>
+        <li>Special Garment Care</li>
+        <li>And more....</li>
+    </ul>
+    <p><strong>Price List</strong></p>
+    <table border ="">
+            <thead>
+                <tr>
+                 <th> Service</th>
+                 <th> Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                 <td>Washing</td>
+                 <td>$10.00</td>
+                </tr>
+            </tbody>
+            <tbody>
+                 <tr>
+                 <td>Ironing and Folding</td>
+                 <td>$5.00</td>
+                 </tr>
+            </tbody>
+    </table>
+<h3>Book Now</h3>
+<form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required 
+        maxlength="20"
+        minlength="4" 
+        placeholder="pls enter your name">
+        
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required 
+        placeholder="pls enter your email">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="1234567890">
+        <input type="submit" value="Submit">
+    <p>Contact us at : info@laundrymart.com</p>
+</body>
+</html>
